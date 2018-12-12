@@ -92,7 +92,7 @@ The process of deploying compute, data storage and network infrastructure owned 
 See also: [Shared Infrastructure](#shared-infrastructure)
 ### Computational Offloading
 
-An edge computing use case where tasks are offloaded from an edge device to the infrastructure edge for remote processing. Computational offloading seeks, for example, performance improvements and energy savings for mobile devices by offloading computation to the infrastructure edge with the goal of minimizing task execution latency and mobile device energy consumption. Computational offloading also enables new classes of mobile applications that would require computational power and storage capacity that exceeds what the device alone is capable of employing (e.g., untethered Virtual Reality). In other cases, workloads may be offloaded from a centralized to an edge data center for performance. The term is also referred to as [cloud offload](https://www.sigmobile.org/pubs/getmobile/articles/Vol18Issue4_1.pdf) and [cyber foraging](https://www.morganclaypool.com/doi/abs/10.2200/S00447ED1V01Y201209MPC010) in the literature.
+An edge computing use case where tasks are offloaded from an edge device to the infrastructure edge for remote processing. Computational offloading seeks performance improvements and energy savings for mobile devices by offloading computation to the infrastructure edge with the goal of balancing task execution latency with mobile device energy consumption and cost. By offloading work from the device, developers can build new classes of mobile applications that require computational power and storage capacity that exceeds what the device alone is capable of employing. Many classes of devices, from robotic drones to self-driving cars and remote sensors, will benefit from the lower costs and reduced battery consumption possible with offloading. In other cases, workloads may be offloaded from a centralized to an edge data center for performance. The term is also referred to as [cloud offload](https://www.sigmobile.org/pubs/getmobile/articles/Vol18Issue4_1.pdf) and [cyber foraging](https://www.morganclaypool.com/doi/abs/10.2200/S00447ED1V01Y201209MPC010) in the literature.
 
 See also: [Traffic Offloading](#traffic-offloading)
 ### Content Delivery Network (CDN)
@@ -142,7 +142,7 @@ The use of intelligent analysis of raw data to produce a recommendation which is
 See also: [Edge-Native Application](#edge-native-application)
 ### Device Edge
 
-Edge computing capabilities on the device or user side of the last mile network. Often depends on a gateway or similar device in the field to collect and process data from devices. May also use limited spare compute and data storage capability from user devices such as smartphones, laptops and sensors to process edge computing workloads. Distinct from infrastructure edge as it uses device resources.
+Edge computing capabilities on the device or user side of the last mile network. Often depends on a gateway, on-premises data center or similar mechanism in the field to collect and process data from devices. May also use limited spare compute and data storage capability from user devices such as smartphones, laptops and sensors to process edge computing workloads. Distinct from infrastructure edge as it is on the device side of the last mile network and often consists of customer-owned equipment.
 
 See also: [Infrastructure Edge](#infrastructure-edge)
 ### Device Edge Cloud
@@ -192,9 +192,14 @@ See also: [Edge-Native Application](#edge-native-application)
 An application which is impractical or undesirable to operate in a centralized data center. This can be due to a range of factors from a requirement for low latency and the movement of large volumes of data, the local creation and consumption of data, regulatory constraints, and other factors. These applications are typically developed for and operate on the edge data centers at the infrastructure edge. May use the infrastructure edge to provide large-scale data ingest, data reduction, real-time decision support, or to solve data sovereignty issues.
 
 See also: [Edge-Enhanced Application](#edge-enhanced-application)
+### Edge-Native Database
+
+A database which is geographically distributed across infrastructure edge and or device edge nodes using a multi-master data platform model. These databases operate using a co-ordination free approach and do not require applications developers to redesign existing applications operating in the centralized cloud to benefit from the low latency and distributed redundancy of edge computing.
+
+See also: [Edge-Native Application](#edge-native-application)
 ### Fog Computing
 
-A distributed computing concept where compute and data storage resource, as well as applications and their data, are positioned in the most optimal place between the user and Cloud with the goal of improving performance and redundancy. Fog computing workloads may be run across the gradient of compute and data storage resource from Cloud to the infrastructure edge. The term fog computing was originally coined by Cisco. Can utilize centralized, regional and edge data centers.
+A distributed computing concept where compute and data storage resource, as well as applications and their data, are positioned in the most optimal place between the user and Cloud with the goal of improving performance and redundancy. Fog computing workloads may be run across the gradient of compute and data storage resource from Cloud to the infrastructure edge. The term fog computing was originally coined by Cisco. Can utilize centralized, regional and edge data centers. The term is first used in this paper. (https://dl.acm.org/citation.cfm?id=2342513)
 
 See also: [Workload Orchestration](#workload-orchestration)
 ### Infrastructure Edge
@@ -247,6 +252,11 @@ See also: [Edge-Native Application](#edge-native-application)
 An application in which reduced latency improves performance, but which can still function if latency is higher than desired. Unlike a Latency Critical Application, exceeding latency targets will typically not result in application failure, though may result in a diminished user experience. Examples include image processing and bulk data transfers.
 
 See also: [Edge-Enhanced Application](#edge-enhanced-application)
+### Lights-Out Data Center
+
+A data center which does not require human staff to be located on-site for it to operate. Due to their larger numbers compared to traditional centralized data centers, edge data centers will typically be lights-out data centers controlled from a remote operations center in order to achieve an acceptable cost of operation.
+
+See also: [Edge Data Center](#edge-data-center)
 ### Location Awareness
 
 The use of RAN data and other available data sources to determine with a high level of accuracy where a user is and where they may be located in the near future, for the purposes of workload migration to ensure optimum application performance. 
