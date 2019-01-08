@@ -30,6 +30,11 @@ See also: [Infrastructure Edge](#infrastructure-edge)
 The layer of infrastructure edge one hop away from the access layer. Can exist as either a medium-scale data center in a single location or may be formed from multiple interconnected micro data centers to form a hierarchical topology with the access edge to allow for greater collaboration, workload failover and scalability than access edge alone.
 
 See also: [Access Edge Layer](#access-edge-layer)
+### Autonomous Vehicle
+
+A vehicle capable of navigating land, sea or air environments and interpreting traffic-control devices without a driver actively operating any of the vehicle’s control systems. In the case of the autonomous vehicle, the contextual edge becomes an integrated component of in-vehicle computing and applications that provide autonomous and extreme low-latency processing.  These on-vehicle capabilities further integrate into a tiered ecosystem with a tradeoff between higher capacity and aggregation versus lower absolute latency. 
+
+See also: [Computational Offloading](#computational-offloading)
 ### Base Station
 
 A network element in the RAN which is responsible for the transmission and reception of radio signals in one or more cells to or from user equipment. A base station can have an integrated antenna or may be connected to an antenna array by feeder cables. Uses specialized digital signal processing and network function hardware. In modern RAN architectures, the base station may be split into multiple functional blocks operating in software for flexibility, cost and performance.
@@ -85,9 +90,9 @@ See also: [Cloud Computing](#cloud-computing)
 In academic circles, this term refers to a mobility-enhanced public or private cloud at the infrastructure edge, as popularized by [Mahadev Satyanarayanan](https://en.wikipedia.org/wiki/Mahadev_Satyanarayanan) of Carnegie Mellon University. It is synonymous with the term [Edge Cloud](#edge-cloud) as defined in this glossary. It has also been used interchangeably with [Edge Data Center](#edge-data-center) and [Edge Node](#edge-node) in the literature. In a 3-tier computing architecture, the term "cloudlet" refers to the middle tier (Tier 2), with Tier 1 being the cloud and Tier 3 being a smartphone, wearable device, smart sensor or other such weight/size/energy-constrained entity. In the context of CDNs such as Akamai, cloudlet refers to the practice of deploying self-serviceable applications at CDN nodes.
 
 See also: [Edge Cloud](#edge-cloud), [Edge Data Center](#edge-data-center), [Edge Node](#edge-node)
-### Co-Location
+### Colocation
 
-The process of deploying compute, data storage and network infrastructure owned or operated by different parties in the same physical location, such as within the same physical structure. Distinct from Shared Infrastructure as co-location does not require infrastructure such as an edge data center to have multiple tenants or users.
+The process of deploying compute, data storage and network infrastructure owned or operated by different parties in the same physical location, such as within the same physical structure. Distinct from Shared Infrastructure as colocation does not require infrastructure such as an edge data center to have multiple tenants or users. Also distinct from multitenancy as colocation doesn't involve sharing of instanced software. 
 
 See also: [Shared Infrastructure](#shared-infrastructure)
 ### Computational Offloading
@@ -222,6 +227,11 @@ See also: [Interconnection](#interconnection)
 Places in which large network providers converge for the direct exchange of traffic.  A typical service provider will access tier 1 global providers and their networks via IXPs, though they also serve as meet points for like networks. IXPs are sometimes referred to as Carrier Hotels because of the many different organizations available for traffic exchange and peering. The internet edge may often connect to an IXP.
 
 See also: [Internet Edge](#internet-edge)
+### IoT Edge Application
+
+An IoT application which requires the use of device edge or infrastructure edge computing to operate, for performance, cost or functionality reasons. May require the ability to run isolated from the rest of the network, allowing local functionality to continue if a network outage occurs; and may also require the location information of each device.
+
+See also: [Edge-Native Application](#edge-native-application)
 ### IP Aggregation
 
 The use of compute, data storage and network resources at the infrastructure edge to separate and route network data received from the cellular network RAN at the earliest point possible. If IP aggregation is not used, this data may be required to take a longer path to a local CO or other aggregation point before it can be routed on to the internet or another network. Improves cellular network QoS for the user.
@@ -346,7 +356,7 @@ See also: [Access Network](#access-network)
 
 The use of a single piece of compute, data storage and network resources by multiple parties, for example two organisations each using half of a single edge data center, unlike co-location where each party possesses their own infrastructure.
 
-See also: [Co-Location](#co-location)
+See also: [Colocation](#colocation)
 ### Software Edge
 
 From a software development and application deployment perspective, the point physically closest to the end user where application workloads can be deployed. Depending on the application workload and the current availability of computing resources, this point may be at the device edge, but will typically be within the infrastructure edge due to its cloud-like capability to provide elastic resources.
