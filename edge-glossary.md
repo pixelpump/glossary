@@ -1,4 +1,4 @@
-# Open Glossary of Edge Computing [v0.9.0-Beta]
+# Oasis Glossary of Edge Computing [v0.9.0-Beta]
 
 * Version: v0.9.0-beta
 * Date: June 12, 2018 1:28 PM Pacific Time
@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Open Glossary of Edge Computing is a freely-licensed, open source lexicon of terms related to edge computing. It has been built using a collaborative process and is designed for easy adoption by the entire edge computing ecosystem, including by open source projects, vendors, standards groups, analysts, journalists, and practitioners.
+The Oasis Glossary of Edge Computing is a freely-licensed, open source lexicon of terms related to edge computing. It has been built using a collaborative process and is designed for easy adoption by the entire edge computing ecosystem, including by open source projects, vendors, standards groups, analysts, journalists, and practitioners.
 
 ## Glossary
 
