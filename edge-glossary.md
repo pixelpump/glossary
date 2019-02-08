@@ -1,8 +1,7 @@
 # Oasis Glossary of Edge Computing [v0.9.0-Beta]
 
-* Version: v0.9.0-beta
-* Date: June 12, 2018 1:28 PM Pacific Time
-* License: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
+* Version: v0.1.0
+* Date: Feb 06, 2019 1:28 PM Pacific Time
 
 ## Overview
 
