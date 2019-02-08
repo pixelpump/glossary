@@ -6,6 +6,4 @@ The Oasis Glossary is governed as an open source project using a transparent and
 
 
 
-Click to view or download PDF:
 
-[![Oasis Glossary of Edge Computing](https://raw.githubusercontent.com/State-of-the-Edge/glossary/master/Open%20Glossary%20of%20Edge%20Computing%20Cover%20Art%202018-07-03_19-01-53.jpg)](https://edge.docsend.com/view/7rm4d3d)
